@@ -1,0 +1,28 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: rgb(217, 211, 211);
+    --text-primary: hsla(0, 0%, 100%, 0.5);
+    --primary-color: #9b4de0;
+    --background-navi: #231b2e;
+    --background-container: #170f23;
+    --primary--background: #34224f;
+}
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
